@@ -51,3 +51,7 @@ button {
   background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);
   background: linear-gradient(to right, #ef473a, #cb2d3e);
 }
+
+ul{
+  list-style-type: disc;
+}
