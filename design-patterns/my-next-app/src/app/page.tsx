@@ -1,13 +1,17 @@
-import SingletonPattern from './singleton-pattern/index';
-import ProxyPattern from './proxy-pattern/index'
-import ProviderPattern from './provider-pattern/index'
+import SingletonPattern from './singleton-pattern/page';
+import ProxyPattern from './proxy-pattern/page'
+import ProviderPattern from './proxy-pattern/page'
+import Link from 'next/link'
 
 export default function Home() {
   return (
     <div className="mx-8">
-      {/* <SingletonPattern/> */}
-      {/*<ProxyPattern/> */}
-      <ProviderPattern/>
+      <ul>
+        <li className='underline my-4'><Link href="/singleton-pattern">Singleton-Pattern</Link></li>
+        <li className='underline my-4'><Link href="/proxy-pattern">Proxy-Pattern</Link></li>
+        <li className='underline my-4'><Link href="/module-pattern">Module-Pattern</Link></li>
+        <li className='underline my-4'><Link href="/provider-pattern">Provider-Pattern</Link></li>
+      </ul>
     </div>
   )
 }
