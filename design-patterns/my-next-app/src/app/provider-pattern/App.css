@@ -1,0 +1,32 @@
+/* App.css */
+.app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  .header.light {
+    color: black;
+    background-color: white; /* Change text color to black in the light theme */
+  }
+
+  .content {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .content.dark {
+    background-color: black;
+    color: white;
+  }
+  
+  .content.light {
+    color: black;
+    background-color: white; /* Change text color to black in the light theme */
+  }
