@@ -41,6 +41,7 @@ const MixinPattern = () => {
           We can add the functionality mixin to the Dog prototype with the{" "}
           <strong>Object.assign method</strong>.
         </li>
+        <li>The React team discourages the use of mixins as it easily adds unnecessary complexity to a component, making it hard to maintain and reuse. The React team encouraged the use of higher order components instead, which can now often be replaced by Hooks.</li>
       </ul>
 
       <div>
