@@ -10,6 +10,7 @@ export default function Home() {
         <li className='underline my-4'><Link href="/provider-pattern">Provider-Pattern</Link></li>
         <li className='underline my-4'><Link href="/mixin-pattern">Mixin Pattern</Link></li>
         <li className='underline my-4'><Link href="/mediator-pattern">Mediator-Pattern</Link></li>
+        <li className='underline my-4'><Link href="/flyweight-pattern">Flyweight-Pattern</Link></li>
       </ul>
     </div>
   )
